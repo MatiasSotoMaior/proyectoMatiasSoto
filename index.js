@@ -1,2 +1,2 @@
-let hola = 'boooooeeenas'
-console.log(hola);
+let hola = "buenas";
+alert(hola)
