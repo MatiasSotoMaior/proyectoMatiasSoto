@@ -5,6 +5,14 @@ $productoUbi1.outerHTML = `
 <div class="card-body">
     <p id="textDog" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>
+<div class="d-flex">
+<div>
+    <p class="pe-3">Lorem ipsum dolor </p>
+</div>
+<button type="button" id="addVodka" class="btn btn-success">+</button>
+<button type="button" id="counter" class="btn btn-outline-info">0</button>
+<button type="button" id="removeVodka" class="btn btn-danger">-</button>
+</div>
 </div>
 
 `
@@ -15,6 +23,13 @@ $productoUbi2.outerHTML = `
 <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>
+<div class="d-flex">
+<div>
+    <p class="pe-3">Lorem ipsum dolor sit </p>
+</div>
+<button type="button" class="btn btn-success">+</button>
+<button type="button" class="btn btn-danger">-</button>
+</div>
 </div>
 `
 const $productoUbi3 = document.getElementById("card3")
@@ -24,5 +39,21 @@ $productoUbi3.outerHTML = `
 <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 </div>
+<div class="d-flex">
+<div>
+    <p class="pe-3">Lorem ipsum dolor sit </p>
+</div>
+<button type="button" class="btn btn-success">+</button>
+<button type="button" class="btn btn-danger">-</button>
+</div>
 </div>
 `
+const $addVodka = document.getElementById("addVodka")
+const $counter = document.getElementById("counter")
+const $removeVodka = document.getElementById("removeVodka")
+const $added =
+    $addVodka.addEventListener("click", () => {
+        $counter.outerHTML = `
+    <button type="button" id="counter" class="btn btn-outline-info">1</button>
+    `
+    })
