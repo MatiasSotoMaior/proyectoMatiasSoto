@@ -47,3 +47,6 @@ const $verBebidaBlanca =
         </div>
         `
     })
+console.log($removeAll)
+console.log($selectBebidaBlanca)
+console.log($add)
