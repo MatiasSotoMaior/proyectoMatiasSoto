@@ -31,16 +31,16 @@
                         Dropdown
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Nuestras cervezas <i class="fa-solid fa-beer-mug-empty"></i></a></li>
-                            <li><a class="dropdown-item" href="#">Bebidas blancas <i class="fa-solid fa-martini-glass-empty"></i></a></li>
-                            <li><a class="dropdown-item" href="#">Licores <i class="fa-solid fa-bottle-droplet"></i></a></li>
+                            <li><a class="dropdown-item" id="nuestrasCervezas" href="#">Nuestras cervezas <i class="fa-solid fa-beer-mug-empty"></i></a></li>
+                            <li><a class="dropdown-item" id="bebidasBlancas" href="#">Bebidas blancas <i class="fa-solid fa-martini-glass-empty"></i></a></li>
+                            <li><a class="dropdown-item" id="licores" href="#">Licores <i class="fa-solid fa-bottle-droplet"></i></a></li>
                         </ul>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
+                <!-- <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                </form> -->
             </div>
             <div class="d-flex me-5">
                 <button type="button" class="ms-5 fs-4 border-0 text-light bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-cart-shopping px-1"></i><span id="cartCounter">0</span></button>
@@ -78,7 +78,7 @@
     </div>
 
     <!-- LOGIN -->
-    <!-- <div class="container mt-5">
+    <div class="container mt-5">
         <form id="login">
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -91,7 +91,7 @@
             </div>
             <button type="submit" class="btn btn-primary">ingresar!</button>
         </form>
-    </div> -->
+    </div>
     <!-- LOGIN ENDS -->
 
     <!-- JS VARIATIONS -->
@@ -119,7 +119,8 @@
     <br><br><br><br><br><br><br><br><br><br>
     <script src="./stock.js"></script>
     <script src="index.js"></script>
-    <script src="try.js"></script>
+    <script src="login.js"></script>
+    <script src="filters.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/030dbfbcd1.js" crossorigin="anonymous"></script>
 </body>

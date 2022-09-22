@@ -21,6 +21,7 @@ stockProductos.forEach((producto) => {
         div.classList.add("card")
         div.classList.add("mt-4")
         div.setAttribute("style", "width: 18rem;")
+        div.setAttribute("id", producto.tipo)
         div.innerHTML = `
     <img src=${producto.img} class="card-img-top" alt="...">
     <h3 class="text-center fw-normal fs-5">${producto.nombre}</h3>
