@@ -1,0 +1,13 @@
+const nuestrasCervezas = document.getElementById("nuestrasCervezas")
+const bebidasBlancas = document.getElementById("bebidasBlancas")
+const licores = document.getElementById("licores")
+const cerveza = document.querySelectorAll("#cerveza")
+const bebidaBlanca = document.querySelectorAll("#bebidaBlanca")
+const licor = document.querySelectorAll("#licor")
+console.log(cerveza)
+console.log(bebidaBlanca)
+console.log(licor)
+const verCervezas = nuestrasCervezas.addEventListener("click", () => {
+    licor.classList.add("hideContent")
+    bebidaBlanca.classList.add("hideContent")
+})
